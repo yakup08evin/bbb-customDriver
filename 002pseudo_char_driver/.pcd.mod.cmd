@@ -1,0 +1,1 @@
+cmd_/home/yakup/workSpaceDriver/ldd/custom_drivers/002pseudo_char_driver/pcd.mod := printf '%s\n'   pcd.o | awk '!x[$$0]++ { print("/home/yakup/workSpaceDriver/ldd/custom_drivers/002pseudo_char_driver/"$$0) }' > /home/yakup/workSpaceDriver/ldd/custom_drivers/002pseudo_char_driver/pcd.mod
